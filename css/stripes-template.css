@@ -105,16 +105,16 @@ padding-bottom: 0%;
 text-align: center;
 font-family: 'Lato', sans-serif;
 font-weight: 400;
-font-size: 40px;*/
-color: ##333333;
+font-size: 40px;
+color: #333333;
 }
 
 .slogan2 {
 text-align: justify;
 font-family: 'Lato', sans-serif;
 font-weight: 300;
-font-size: 30px;*/
-color: ##333333;
+font-size: 30px;
+color: #333333;
 }
 
 .mockup-caption {
@@ -122,6 +122,23 @@ float:none;
 display:inline-block;
 vertical-align:middle;
 margin-right:-4px;
+}
+
+
+.mockup-title {
+text-align: center;
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+font-size: 40px;
+color: #333333;
+}
+
+.mockup-description {
+text-align: justify;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 30px;
+color: #333333;
 }
 
 .mockup-img {
@@ -151,7 +168,6 @@ margin-right:-4px;
   line-height: 20px;
   text-align: justify;
   padding-top: 2%;
-
 }
 
 .shortbio-contact{
@@ -417,6 +433,34 @@ i.scroll:hover {
     h1{
       font-size: 30px;
     }
+
+    .slogan {
+      font-weight: 300;
+      font-size: 30px;      
+    }
+
+    .slogan2 {
+      font-weight: 200;
+      font-size: 20px;      
+    }
+
+    .mockup-title {
+      font-weight: 200;
+      font-size: 20px;      
+    }
+    .mockup-description {
+      font-weight: 150;
+      font-size: 15px;      
+    }
+
+    .shortbio{
+      font-family: 'Lato', sans-serif;
+      font-size: 10px;
+      /*line-height: 18px;*/
+      text-align: justify;
+      padding-top: 4%;
+    }              
+
 }
 
 }
